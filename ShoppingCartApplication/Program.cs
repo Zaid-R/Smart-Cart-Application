@@ -3,10 +3,6 @@ using System.Text.RegularExpressions;
 
 namespace ShoppingCartApplication
 {
-    // Product.cs
-
-
-
     class Program
     {
         private static string getKey(int from, int to)
@@ -42,7 +38,7 @@ namespace ShoppingCartApplication
                     Console.WriteLine("Welcome to the Smart Shopping Cart!");
                     Console.WriteLine("1. Shop at Grocery Store");
                     Console.WriteLine("2. Shop at Clothing Store");
-                    Console.WriteLine("3. Shop at Clothing Store");
+                    Console.WriteLine("3. Shop at Electronics Store");
                     Console.WriteLine("4. View Cart");
                     Console.WriteLine("5. Calculate Total Cost");
                     Console.WriteLine("6. Exit");
